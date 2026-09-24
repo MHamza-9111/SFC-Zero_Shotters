@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# PyTest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local runtime databases and session credentials
+runtime/*.sqlite3
+runtime/*.sqlite3-shm
+runtime/*.sqlite3-wal
+runtime/*.key
+
+# Historical model pointers whose LFS objects are absent from this checkout
+models/customer_churn/v[1-6]/model.joblib
+models/high_value_order/v[1-6]/model.joblib
+models/menu_business_class/v[1-6]/model.joblib
+models/python/customer_churn/v[1-9]/model.joblib
+models/python/customer_churn/v1[0-1]/model.joblib
+models/python/high_value_order/v[1-9]/model.joblib
+models/python/high_value_order/v1[0-2]/model.joblib
+models/python/menu_business_class/v[1-4]/model.joblib
