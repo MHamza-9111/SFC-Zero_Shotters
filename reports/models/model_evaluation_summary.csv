@@ -1,0 +1,4 @@
+task,model,eval_accuracy,eval_f1,eval_roc_auc,eval_macro_f1
+high_value_order,v8,0.9815,0.9065,0.9961,
+customer_churn,v8,0.7619,,0.7877,0.6284
+menu_business_class,v8,0.4167,,,0.4143

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Page not found · DineIQ Analytics{% endblock %}
+{% block body %}
+<main class="notfound-page" id="main-content">
+  <div class="notfound-card">
+    <div class="landing-mark" aria-hidden="true" style="animation:none">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-linecap="round">
+        <g transform="rotate(32 12 12)" stroke="#fbbf24" stroke-width="1.7"><path d="M8.6 2.8v4.4a3.4 3.4 0 0 0 6.8 0V2.8M12 2.8v18.4"/></g>
+        <g transform="rotate(-32 12 12)" stroke="#2dd4bf" stroke-width="1.7"><path d="M8.6 2.8v4.4a3.4 3.4 0 0 0 6.8 0V2.8M12 2.8v18.4"/></g>
+      </svg>
+    </div>
+    <div class="notfound-code">404</div>
+    <h1>Page not found</h1>
+    <p>The page you requested does not exist in this workspace. Return to the dashboard or pick a section from the navigation.</p>
+    <div class="landing-actions">
+      <a class="btn btn-primary" href="/">Back to dashboard</a>
+      <a class="btn btn-ghost" href="/login">Sign in</a>
+    </div>
+  </div>
+</main>
+{% endblock %}
